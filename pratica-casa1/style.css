@@ -1,0 +1,83 @@
+
+    h1,h3,h4{
+        color:#003366;
+     text-align: center;
+    }
+
+body {
+     background-image: linear-gradient(-90deg,#FF6F61,#FFD700,#F4E2D8,#87CEEB );
+}
+
+.caixa {
+background-color: rgba(255, 255, 255, 0.8);
+     width: 600px;               
+  height: auto;               
+  
+  color: rgb(10, 10, 10);               
+  padding: 20px;              
+  border: 2px solid #0077BE;  
+  border-radius: 12px;       
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin: 40px auto;         
+  text-align: center;        
+  font-family: Arial, sans-serif; 
+}
+.img {
+  
+   border-radius: 12px;
+   width: 500px;               
+  height: 500px;
+  display: block;          
+  margin: 0 auto;  
+}
+.link-viagem {
+  text-align: center;
+}
+
+.link-viagem {
+   
+  border: 1px solid #000;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  width: fit-content;
+  transition: all 0.3s ease;
+  background-color:black;
+  border-radius: 4px;
+  width: 100px;               
+  height: 25px;
+}
+
+.link-viagem:link {
+  color: orange;  }
+
+.link-viagem:visited{ 
+  color: white; 
+}
+
+.link-viagem:hover  { 
+  color:yellow;
+ }
+
+
+@media (max-width: 768px)
+ {}
+  .caixa {
+    width: 90%;
+    padding: 15px;
+  }
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 2px solid #0077BE;
+  font-family: Arial, sans-serif;
+  color: #003366;
+}
+
+  
+   
+
+ 
+
+
